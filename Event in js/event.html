@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events in JS</title>
+  </head>
+  <body>
+    <h1>Exploreing Java Script Events</h1>
+    <button onclick="alert('Sorry You can not enter this website')">
+      Click Me
+    </button>
+    <div>
+      <!-- There are some event handeler -->
+      <h1>Background color change</h1>
+      <!-- 1st Event -->
+      <button onclick="makeRed()">Click :Red</button>
+      <!-- 2nd Event -->
+      <button id="green">Click :Green</button>
+      <!-- 3rd event -->
+      <button onclick="document.body.style.backgroundColor='blue'">
+        Click :Blue
+      </button>
+      <!-- 4th Event -->
+      <button id="gray">Click :Gray</button>
+      <!-- 5th event -->
+      <button id="gold">Click :GoldenRod</button>
+      <!-- 6th event -->
+      <button id="pink">Click :Pink</button>
+    </div>
+    <br /><br />
+    <div>
+      <input id="input" type="text" />
+      <button id="submit">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
